@@ -1,0 +1,15 @@
+{
+  "editor.renderWhitespace": "boundary",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.formatOnType": true,
+  "editor.wordWrapColumn": 110,
+
+  // Включаем навигацию по пути к файлу vscode
+  "breadcrumbs.enabled": true,
+  // prettier добавляет точку с запятой в конце оператора
+  "prettier.semi": true,
+  // prettier устанавливает обязательные одинарные кавычки
+  "prettier.singleQuote": true
+}
