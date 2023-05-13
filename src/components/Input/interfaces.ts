@@ -1,5 +1,6 @@
 export interface Props {
   placeholder?: string;
+  name?: string;
   value?: string;
   label?: string;
   closeClick?: any;

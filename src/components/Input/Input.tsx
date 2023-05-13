@@ -5,6 +5,7 @@ import './Input-media.scss';
 
 const Input = ({
   type = 'text',
+  name,
   placeholder = '',
   value,
   label,
@@ -19,6 +20,7 @@ const Input = ({
       {label ? <p className="input__label">{label}</p> : null}
       <input
         type={inputType}
+        name={name ? name : ''}
         className="input__field"
         placeholder={placeholder}
         value={value}
