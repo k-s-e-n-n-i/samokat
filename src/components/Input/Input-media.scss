@@ -1,0 +1,7 @@
+.input {
+  @media screen and (max-width: 850px) {
+    &__label {
+      margin: 16px 0 8px;
+    }
+  }
+}

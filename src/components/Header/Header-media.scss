@@ -1,0 +1,12 @@
+.header {
+  @media screen and (max-width: 850px) {
+    grid-template-columns: auto 24px;
+  }
+
+  @media screen and (max-width: 850px) {
+    &__menu,
+    &__search {
+      display: none;
+    }
+  }
+}

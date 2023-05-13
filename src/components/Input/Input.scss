@@ -1,0 +1,61 @@
+.input {
+  position: relative;
+  width: 100%;
+
+  &__field {
+    padding: 33px 37px 34px 134px;
+    border: 3px solid #ff335f;
+    background: #f2f2f2;
+    border-radius: 70px;
+    color: rgba(255, 51, 95, 0.49);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 42px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+
+    &::placeholder {
+      color: rgba(255, 51, 95, 0.49);
+    }
+
+    &:hover {
+    }
+
+    &:focus {
+      color: rgba(255, 51, 95, 1);
+    }
+  }
+
+  &__icon {
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    left: 32px;
+    top: 25px;
+    pointer-events: none;
+  }
+
+  &__icon-search {
+    background: url('./img/search.svg') no-repeat center;
+  }
+
+  &__icon-password {
+    background: url('./img/password.svg') no-repeat center;
+    pointer-events: auto;
+    cursor: pointer;
+  }
+
+  &__icon-date {
+    background: url('./img/calendar.svg') no-repeat center;
+  }
+
+  &__icon-time {
+    background: url('./img/clock.svg') no-repeat center;
+  }
+
+  &__label {
+    margin: 24px 0 8px;
+  }
+}

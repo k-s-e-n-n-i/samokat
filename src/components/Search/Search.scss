@@ -1,0 +1,38 @@
+.search {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+
+  &__input {
+    width: 100%;
+    z-index: 2;
+  }
+
+  &__list {
+    background: #f2f2f2;
+    padding: 73px 41px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 45px;
+    width: 98%;
+    position: absolute;
+    top: 79px;
+    z-index: 1;
+  }
+
+  &__item {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 42px;
+    text-decoration: none;
+    color: rgba(255, 51, 95, 1);
+
+    &:hover {
+      font-weight: 500;
+    }
+  }
+}

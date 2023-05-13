@@ -1,0 +1,19 @@
+.app {
+}
+
+.app-container {
+  @media screen and (max-width: 1192px) {
+    margin: 0 16px;
+    width: calc(100% - 32px);
+  }
+
+  @media screen and (max-width: 350px) {
+    width: 288px;
+  }
+}
+
+.app-content {
+  @media screen and (max-width: 850px) {
+    min-height: auto;
+  }
+}
