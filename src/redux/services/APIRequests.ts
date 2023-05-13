@@ -17,7 +17,7 @@ class APIRequests {
   axiosConfigWithAuthorization: AxiosRequestConfig = Object.assign({}, this.axiosConfig, {
     headers: {
       'Content-Type': 'application/json',
-      Authorization: `Bearer ${localStorage.getItem('tokenFinance')}` || '',
+      Authorization: `Bearer ${localStorage.getItem('tokenSamokat')}` || '',
     },
   });
 

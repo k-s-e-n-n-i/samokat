@@ -23,7 +23,7 @@ class APIDataProcessing {
         tap(({ accessToken }: IFAPILogin) => {
           setServerText('');
           API.setAxiosConfigWithAuthorization(accessToken);
-          localStorage.setItem('tokenFinance', accessToken);
+          localStorage.setItem('tokenSamokat', accessToken);
         }),
         catchError((err) => {
           setServerText(GetServerTextError(err));

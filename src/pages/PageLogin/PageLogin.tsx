@@ -13,7 +13,7 @@ const PageLogin = () => {
 
   const [serverText, setServerText] = useState<string | null>(null);
 
-  if (localStorage.getItem('tokenFinance')) {
+  if (localStorage.getItem('tokenSamokat')) {
     return <Navigate to="/" />;
   }
 

@@ -7,7 +7,7 @@ import Footer from '../Footer/Footer';
 
 class Layout extends React.Component<Props> {
   render() {
-    if (!localStorage.getItem('tokenFinance')) {
+    if (!localStorage.getItem('tokenSamokat')) {
       return <Navigate to="/login" />;
     }
 
