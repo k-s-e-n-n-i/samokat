@@ -1,0 +1,46 @@
+.button {
+  border-radius: 8px;
+  text-align: center;
+  color: #f2f2f2;
+  border: 0;
+  text-decoration: none;
+  user-select: none;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  width: max-content;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  white-space: nowrap;
+  box-sizing: border-box;
+  background: rgba(255, 51, 95, 0.86);
+  padding: 18px;
+  font-size: 16px;
+  text-transform: uppercase;
+
+  &:hover {
+    background: rgba(255, 51, 95, 1);
+  }
+
+  &_type-disabled,
+  &_type-disabled:hover {
+    background: #ccc;
+    color: #000;
+  }
+
+  &__icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 14px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &__icon_link {
+    margin: 0;
+    padding: 9.5px 4.5px;
+  }
+}

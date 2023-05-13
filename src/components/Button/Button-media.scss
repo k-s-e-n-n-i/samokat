@@ -1,0 +1,12 @@
+.button {
+  @media screen and (max-width: 850px) {
+    &_type-transparent {
+      padding: 15px;
+    }
+
+    &__icon_edit,
+    &__icon_settings {
+      margin-right: 0;
+    }
+  }
+}
